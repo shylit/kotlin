@@ -60,7 +60,6 @@ data class Contact(
 fun ContactColumnScreen() {
     Column(modifier = Modifier.fillMaxSize()) {
 
-        // Фиолетовая шапка, как на скрине
         Box(
             modifier = Modifier
                 .fillMaxWidth()
