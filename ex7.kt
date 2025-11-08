@@ -183,7 +183,6 @@ fun ContactRowCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            // Текстовая часть слева
             Column(
                 modifier = Modifier.weight(1f),
                 horizontalAlignment = Alignment.CenterHorizontally
@@ -197,7 +196,6 @@ fun ContactRowCard(
 
             Spacer(Modifier.width(8.dp))
 
-            // “Произвольная картинка” справа — возьмём иконку звезды
             Icon(
                 imageVector = Icons.Filled.Star,
                 contentDescription = "Избранное",
